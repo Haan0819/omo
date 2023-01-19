@@ -1,0 +1,43 @@
+.bar_text{
+    display : flex;
+    flex-direction:columnsl;
+    justify-content : space-between;
+}
+
+
+.h5c {
+    display : flex;
+    z-index : 5;
+    flex-direction: columns;
+}
+
+.h5cd{
+    font-size : 0.8em;
+    justify-content : end;
+}
+
+.logmodalbody{
+    display : flex;
+    justify-content: center;
+    width : 100%;
+    align-items : center;
+    flex-direction: columns;
+}
+
+.logmodala{
+    display : flex;
+    justify-content: center;
+    width : 400px;
+    align-items : center;
+}
+
+.logmodalb{
+    display : flex;
+    justify-content: center;
+    width : 400px;
+    align-items : center;
+}
+
+.logbtn{
+    justify-content:center;
+}
