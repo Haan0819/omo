@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+
 <div>
-  <div>
-    <form action="{% 'blog/index %}" method="post" name="login_temp">
-      <input type="input" name="username" placeholder="UserName">
-      <input type="password" name="password" placeholder="PassWord">
-      <input type="submit" value="Login">
-    </form>
+  <div class="login_temp">
+      <form action="{% url 'blog:login' %}" method="post" class="login_form">{% csrf_token %}
+          <input type="input" name="username" placeholder="UserName">
+          <input type="password" name="password" placeholder="PassWord">
+          <input type="submit" value="Login">
+      </form>
   </div>
 </div>
-</body>
-</html>

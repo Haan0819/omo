@@ -1,6 +1,6 @@
 .bar_text{
     display : flex;
-    flex-direction:columnsl;
+    flex-direction:columns;
     justify-content : space-between;
 }
 
@@ -40,4 +40,22 @@
 
 .logbtn{
     justify-content:center;
+}
+
+.logout_temp{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.login_temp{
+    background-color : skyblue;
+    width : 400px;
+    height : 400px;
+}
+
+
+.login_form{
+    display:flex;
+    flex-direction:columns;
+    justify-content:space-between;
 }
